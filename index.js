@@ -7,4 +7,5 @@ server.on('request', (req, res) => {
     res.end();
 })
 
+// listen
 server.listen(8000, () => console.log('Server started...'));
