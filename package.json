@@ -1,0 +1,23 @@
+{
+  "name": "node1",
+  "version": "1.0.0",
+  "description": "first node web server example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/leonidm/node1.git"
+  },
+  "keywords": [
+    "node1"
+  ],
+  "author": "Leonid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonidm/node1/issues"
+  },
+  "homepage": "https://github.com/leonidm/node1#readme",
+  "dependencies": {}
+}
