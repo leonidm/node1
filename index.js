@@ -1,9 +1,10 @@
 var http = require('http');
+var responce = require('./responce');
 
 var server = http.createServer();
 
 server.on('request', (req, res) => {
-    res.write('Hello from my server...');
+    res.write(responce());
     res.end();
 })
 
